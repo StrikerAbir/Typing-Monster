@@ -207,6 +207,10 @@ button {
 .space{
   margin-top:10px;
 }
+.spaceTitle{
+  margin-top:40px;
+  font-size:40px;
+}
 
 .btn{
   text-align:right;
