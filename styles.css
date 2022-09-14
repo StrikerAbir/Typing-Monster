@@ -154,6 +154,7 @@ button {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  text-align: center;
   padding: 20px 30px;
   color: white;
   border-radius: 15px;
@@ -189,4 +190,17 @@ button {
   .card {
     flex-direction: column;
   }
+}
+@media only screen and (min-width: 701px) and (max-width:1024px) {
+  
+  .card {
+    flex-direction: column;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  .card {
+      flex-direction: column;
+      width: 30%;
+      height: 200px;
+    }
 }
