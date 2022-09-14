@@ -38,3 +38,8 @@ function displayHistory() {
     histories.appendChild(newRow);
   });
 }
+
+document.getElementById("clear").addEventListener('click', () => {
+  localStorage.removeItem('testHistory');
+  displayHistory();
+})
