@@ -192,15 +192,19 @@ button {
   }
 }
 @media only screen and (min-width: 701px) and (max-width:1024px) {
-  
   .card {
     flex-direction: column;
   }
 }
 @media only screen and (min-width: 1025px) {
   .card {
+      margin-right: 29px;
       flex-direction: column;
       width: 30%;
       height: 200px;
+    }
+    #histories{
+      padding-left: 29px;
+      justify-content: left;
     }
 }
