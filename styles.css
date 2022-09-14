@@ -182,6 +182,32 @@ button {
   top: 0;
 }
 
+
+/* blog page */
+
+.blog {
+  width: 100%;
+  height: 100%;
+  padding: 20px 10%;
+  color: white;
+  border-radius: 15px;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(92.49deg,
+      rgba(255, 255, 255, 0.1) 0.18%,
+      rgba(255, 255, 255, 0.05) 99.85%);
+  backdrop-filter: blur(5px);
+  margin-top: 30px;
+}
+
+.color{
+  margin-top:50px;
+  color:white;
+  text-align: center;
+}
+.space{
+  margin-top:10px;
+}
+
 @media only screen and (max-width: 700px) {
   .box-container {
     padding: 0 20px;
